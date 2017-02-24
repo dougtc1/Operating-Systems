@@ -1,0 +1,34 @@
+﻿NOMBRE
+		MiCuento - Crea una historia usando el estilo de "Literatura Aleatoria"
+
+SINOPSIS
+       
+		./MiCuento [-d directorio] <n> <m> <salida>
+
+		./MiCuento <n> <m> <salida>
+
+DESCRIPCION
+
+		MiCuento recibe:
+			-Una direccion a un directorio usando el flag -d, este directorio es opcional, en caso de que no se de un directorio a la hora de ejecutar MiCuento este tomara el directorio actual.
+
+			-Una n que simboliza la cantidad de carpetas que se van a acceder, se eligiran n carpetas aleatoriamente del 1 al 10 sin repetirse las carpetas. En caso de no existir una de las carpetas el proceso hijo encargado de acceder a ella devolvera en el exit un 0 indicandole al padre que no pudo tomar ningun archivo ya que la carpeta no existia.		
+
+			-Una m que representa la cantidad de archivos que se tomaran de cada carpeta, se eligiran m archivos aleatoriamente del 1 al 20 sin repetirse los archivos. El programa solo tomara los archivos regulares, si el archivo elegido aleatoriamente no es regular no sera tomado en cuenta. Cada hijo devolvera en el exit la cantidad de archivos que tomo, si todos los archivos seleccionados aleatoriamente existian y eran regulares el exit devolveria m.		
+
+
+		MiCuento se usa para crear un archivo salida que tiene dentro de si la informacion encontrada en todos los archivos que fueron tomados de las carpetas.
+
+		Para compilar se hace la llamada make para hacer uso del makefile provisto.
+
+OPCIONES
+
+		-d se utiliza para indicar el directorio sobre el que actuara MiCuento.
+
+NOTAS
+
+		Al utilizar -d para indicar el directorio se debe colocar "/" al final de la direccion.
+
+AUTORES
+		Ricardo Churión <11-10200@usb.ve>
+		Douglas Torres  <11-11027@usb.ve>

@@ -1,0 +1,11 @@
+# Archivo makefile
+
+# Proyecto 1 - Sistemas Operativos
+# Ricardo Churion, carnet:11-10200
+# Douglas Torres, carnet:11-11027
+
+# Compila el archivo de procesos
+friendfindp: friendfindp.o
+      :gcc friendfindp.o -o friendfindp
+friendfindp.o: friendfindp.c funcionesp.h funcionesp.h
+      :gcc -lpr -c friendfindp.c

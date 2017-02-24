@@ -1,0 +1,20 @@
+Pepe -> Luis Rosa
+Rosa -> Luis Maria
+Luis -> Pepe Rosa
+Maria -> Rosa
+Jose -> -None-
+Jorge -> Leo
+Leo -> Jorge Rafa Moises Andrea
+David -> Carlos
+Carlos -> David Rafa
+Rafa -> Leo Carlos Raul Douglas
+Moises -> Raul
+Ramon -> -None-
+Raul -> Rafa Moises Douglas
+Alejandro -> -None-
+Douglas -> Rafa Raul Alex Paty
+Saul -> -None-
+Andrea -> Leo Alex
+Paty -> Douglas Karla
+Alex -> Douglas Karla
+Karla -> Paty Alex

@@ -1,0 +1,4 @@
+# Forma de declarar el main para que reciba argumentos:
+	int main (int argc, char ** argv){...}
+# Para hacer casting:
+	int n_prog = atoi(argv[2]);

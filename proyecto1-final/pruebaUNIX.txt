@@ -1,0 +1,7 @@
+Pepe -> Rosa Luis Pedro
+Rosa -> Pepe Luis Maria Miguel
+Luis -> Pepe Rosa Carlos
+Douglas -> Ricardo Carlos Miguel
+Ricardo -> Douglas Carlos Miguel
+Carlos -> Ricardo Douglas Pedro Miguel Luis
+Miguel -> Rosa Douglas Ricardo Carlos

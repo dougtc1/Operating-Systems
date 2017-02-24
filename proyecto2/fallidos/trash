@@ -1,0 +1,25 @@
+
+
+/*
+
+    char *cmd=NULL;
+
+	cmd = (char *)malloc(sizeof("cd "));
+
+    strcpy(cmd,"cd ");
+
+    cmd =(char *)realloc(cmd, strlen(cmd)+strlen(direccion));
+
+    strcat(cmd,direccion);
+
+    printf("%s \n",cmd);
+
+    system(cmd);
+
+
+
+    auxiliar_direccion = (char *) realloc(auxiliar_direccion,strlen(auxiliar_direccion)+strlen(aux_dir));
+	
+	cmd =                (char *)realloc(cmd, strlen(cmd)+strlen(temporal) + 1);
+
+	*/
